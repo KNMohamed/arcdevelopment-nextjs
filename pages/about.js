@@ -75,7 +75,7 @@ export default function AboutUsPage(props) {
         style={{ marginTop: matchesMD ? "1em" : "2em" }}
       >
         <Typography
-          variant="h2"
+          variant="h1"
           gutterBottom
           align={matchesMD ? "center" : undefined}
         >

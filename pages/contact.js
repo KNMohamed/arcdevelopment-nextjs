@@ -217,7 +217,7 @@ export default function ContactPage(props) {
             <Grid item>
               <Typography
                 align={matchesMD ? "center" : undefined}
-                variant="h2"
+                variant="h1"
                 style={{ lineHeight: 1 }}
               >
                 Contact Us
@@ -478,7 +478,7 @@ export default function ContactPage(props) {
         >
           <Grid container direction="column">
             <Grid item>
-              <Typography variant="h2" align={matchesMD ? "center" : undefined}>
+              <Typography variant="h1" align={matchesMD ? "center" : undefined}>
                 Simple Software.
                 <br />
                 Revolutionary Results.

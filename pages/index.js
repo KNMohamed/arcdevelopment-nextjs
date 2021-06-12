@@ -170,7 +170,7 @@ export default function LandingPage(props) {
         {/*-----Hero Block-----*/}
         <Grid container direction="row" justify="flex-end" alignItems="center">
           <Grid item sm className={classes.heroTextContainer}>
-            <Typography variant="h2" color="initial" align="center">
+            <Typography variant="h1" color="initial" align="center">
               Bringing West Coast Technology <br /> to the Midwest
             </Typography>
             <Grid
@@ -446,7 +446,7 @@ export default function LandingPage(props) {
                 direction="column"
                 style={{ marginBottom: matchesXS ? "10em" : 0 }}
               >
-                <Typography variant="h2" style={{ color: "white" }}>
+                <Typography variant="h1" style={{ color: "white" }}>
                   About Us
                 </Typography>
                 <Typography variant="subtitle2">Let's get personal.</Typography>
@@ -474,7 +474,7 @@ export default function LandingPage(props) {
               }}
             >
               <Grid container direction="column">
-                <Typography variant="h2" style={{ color: "white" }}>
+                <Typography variant="h1" style={{ color: "white" }}>
                   Contact Us
                 </Typography>
                 <Typography variant="subtitle2">

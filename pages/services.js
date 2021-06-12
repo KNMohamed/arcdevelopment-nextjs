@@ -82,7 +82,7 @@ export default function ServicePage(props) {
         }}
       >
         <Typography
-          variant="h2"
+          variant="h1"
           align={matchesSM ? "center" : undefined}
           gutterBottom
         >
