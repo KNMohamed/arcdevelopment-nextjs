@@ -42,7 +42,7 @@ export default function MobileAppsPage(props) {
 
   const defaultOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: integrationAnimation,
     rendererSettings: {
       preserveAspectRation: "xMidYMid slice",
@@ -198,7 +198,6 @@ export default function MobileAppsPage(props) {
         <Grid md item>
           <Lottie
             options={defaultOptions}
-            isStopped
             style={{
               maxWidth: matchesMD ? "15em" : "20em",
               height: matchesMD ? "20em" : undefined,

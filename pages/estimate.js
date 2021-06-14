@@ -406,7 +406,7 @@ export default function EstimatePage() {
   const [phoneHelper, setPhoneHelper] = useState("");
   const defaultOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: estimateAnimation,
     rendererSettings: {
       preserveAspectRation: "xMidYMid slice",

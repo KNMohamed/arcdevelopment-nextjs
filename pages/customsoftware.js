@@ -46,7 +46,7 @@ export default function CustomSoftwarePage(props) {
 
   const documentsOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: documentsAnimation,
     rendererSettings: {
       preserveAspectRation: "xMidYMid slice",
@@ -62,7 +62,7 @@ export default function CustomSoftwarePage(props) {
   };
   const automationOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: automationAnimation,
     rendererSettings: {
       preserveAspectRation: "xMidYMid slice",
@@ -294,7 +294,6 @@ export default function CustomSoftwarePage(props) {
           <Grid md item>
             <Lottie
               options={documentsOptions}
-              isStopped={true}
               style={{ maxHeight: 275, maxWidth: 275, minHeight: 250 }}
             />
           </Grid>
@@ -309,7 +308,6 @@ export default function CustomSoftwarePage(props) {
           <Grid md item>
             <Lottie
               options={scaleOptions}
-              isStopped={true}
               style={{ maxHeight: 260, maxWidth: 280 }}
             />
           </Grid>
@@ -420,7 +418,6 @@ export default function CustomSoftwarePage(props) {
           <Grid md item>
             <Lottie
               options={automationOptions}
-              isStopped={true}
               style={{ maxHeight: 290, maxWidth: 280 }}
             />
           </Grid>
@@ -435,7 +432,6 @@ export default function CustomSoftwarePage(props) {
           <Grid md item>
             <Lottie
               options={uxOptions}
-              isStopped={true}
               style={{ maxHeight: 310, maxWidth: 155 }}
             />
           </Grid>

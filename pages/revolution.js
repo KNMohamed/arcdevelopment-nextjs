@@ -25,7 +25,7 @@ export default function RevolutionPage() {
 
   const technologyOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: technologyAnimation,
     rendererSettings: {
       preserveAspectRation: "xMidYMid slice",
