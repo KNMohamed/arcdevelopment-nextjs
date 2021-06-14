@@ -39,6 +39,10 @@ export default function RevolutionPage() {
           The Revolution - Cutting-Edge Software | Arc Development
         </title>
         <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+        <meta
           name="description"
           key="description"
           content="Visionary insights, coupled with cutting-edge technology, is a recipe for revolution. Get a free online estimate instantly!"
@@ -469,6 +473,7 @@ export default function RevolutionPage() {
             src="/assets/reviewIcon.svg"
             alt="magnifying glass"
             width="100%"
+            style={{ maxWidth: "40em" }}
           />
         </Grid>
       </Grid>
@@ -579,7 +584,8 @@ export default function RevolutionPage() {
           <img
             src="/assets/reviewIcon.svg"
             alt="Magnifying glass"
-            style={{ width: "100%" }}
+            width="100%"
+            style={{ maxWidth: "40em" }}
           />
         </Grid>
       </Grid>

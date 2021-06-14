@@ -701,6 +701,10 @@ export default function EstimatePage() {
           Free Custom Software Estimate | Arc Development
         </title>
         <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+        <meta
           name="description"
           key="description"
           content="Use our free online estimate calculator to instantly check the cost of your custom software, mobile app, or website design and development project!"

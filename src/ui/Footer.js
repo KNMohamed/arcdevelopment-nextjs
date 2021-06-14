@@ -59,7 +59,12 @@ export default function Footer(props) {
       <Hidden mdDown>
         <Grid container className={classes.mainContainer}>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -72,7 +77,12 @@ export default function Footer(props) {
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -121,7 +131,12 @@ export default function Footer(props) {
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -161,7 +176,12 @@ export default function Footer(props) {
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -192,7 +212,12 @@ export default function Footer(props) {
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
+            <Grid
+              container
+              direction="column"
+              spacing={2}
+              style={{ margin: 0 }}
+            >
               <Grid
                 item
                 component={Link}
@@ -219,7 +244,11 @@ export default function Footer(props) {
           rel="noopener noreffer"
           target="_blank"
         >
-          <img src="/assets/facebook.svg" alt="facebook icon" className={classes.icon} />
+          <img
+            src="/assets/facebook.svg"
+            alt="facebook icon"
+            className={classes.icon}
+          />
         </Grid>
         <Grid
           item
@@ -228,7 +257,11 @@ export default function Footer(props) {
           rel="noopennr  noreffer"
           target="_blank"
         >
-          <img src="/assets/twitter.svg" alt="twitter icon" className={classes.icon} />
+          <img
+            src="/assets/twitter.svg"
+            alt="twitter icon"
+            className={classes.icon}
+          />
         </Grid>
         <Grid
           item
@@ -237,7 +270,11 @@ export default function Footer(props) {
           rel="noopenernoreffer"
           target="_blank"
         >
-          <img src="/assets/instagram.svg" alt="instagram icon" className={classes.icon} />
+          <img
+            src="/assets/instagram.svg"
+            alt="instagram icon"
+            className={classes.icon}
+          />
         </Grid>
       </Grid>
     </footer>

@@ -54,6 +54,10 @@ export default function ServicePage(props) {
           Top Custom Software Development Services | Arc Development
         </title>
         <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+        <meta
           name="description"
           key="description"
           content="Cutting-edge software, mobile app, and website development services with sleek custom designs - get a free online estimate instantly!"

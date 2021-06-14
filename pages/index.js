@@ -146,6 +146,10 @@ export default function LandingPage(props) {
           Custom Software, Mobile Apps, and Websites | Arc Development
         </title>
         <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+        <meta
           name="description"
           key="description"
           content="Pristine software custom-designed from the ground up and developed with cutting-edge optimizations. Use our free estimate calculator to check your project cost!"

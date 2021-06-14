@@ -47,6 +47,10 @@ export default function WebsitePage(props) {
           Stunning Custom Website Design | Arc Development
         </title>
         <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+        <meta
           name="description"
           key="description"
           content="Completely custom designed and built from scratch to be blazing fast. Optimized code, server-side rendering, and perfect responsive design | 99% PageSpeed Score"

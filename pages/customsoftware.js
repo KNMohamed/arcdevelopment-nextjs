@@ -83,6 +83,10 @@ export default function CustomSoftwarePage(props) {
           Custom Software Development and Design - Free Estimate
         </title>
         <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+        <meta
           name="description"
           key="description"
           content="Cutting-edge custom software development with gorgeous designs from scratch - let us optimize your business, solving problems instead of creating new ones."
@@ -237,8 +241,9 @@ export default function CustomSoftwarePage(props) {
         container
         direction={matchesMD ? "column" : "row"}
         alignItems={matchesMD ? "center" : undefined}
-        justify="space-between"
+        justify={matchesMD ? "center" : "space-between"}
         className={classes.rowContainer}
+        style={{ display: matchesMD ? "grid" : undefined }}
       >
         <Grid
           md
@@ -364,9 +369,9 @@ export default function CustomSoftwarePage(props) {
         container
         direction={matchesMD ? "column" : "row"}
         alignItems={matchesMD ? "center" : undefined}
-        justify="space-between"
-        style={{ marginBottom: "20em" }}
+        justify={matchesMD ? "center" : "space-between"}
         className={classes.rowContainer}
+        style={{ display: matchesMD ? "grid" : undefined }}
       >
         <Grid
           md
@@ -469,7 +474,7 @@ export default function CustomSoftwarePage(props) {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item>
+      <Grid item style={{ marginTop: "20em" }}>
         <CallToAction setValue={props.setValue} />
       </Grid>
     </Grid>

@@ -56,6 +56,10 @@ export default function MobileAppsPage(props) {
           iOS/Android App Design and Development | Arc Development
         </title>
         <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+        <meta
           name="description"
           key="description"
           content="Mobile Apps Made Easy | Our cutting-edge mobile app development process lets us build beautifully designed, carefully crafted apps for both iOS and Android."
@@ -195,7 +199,10 @@ export default function MobileAppsPage(props) {
           <Lottie
             options={defaultOptions}
             isStopped
-            style={{ maxWidth: "20em" }}
+            style={{
+              maxWidth: matchesMD ? "15em" : "20em",
+              height: matchesMD ? "20em" : undefined,
+            }}
           />
         </Grid>
         <Grid md item container direction="column">
@@ -233,7 +240,7 @@ export default function MobileAppsPage(props) {
         container
         direction={matchesMD ? "column" : "row"}
         className={classes.rowContainer}
-        style={{ marginBottom: "15em" }}
+        style={{ marginBottom: "15em", dislay: matchesMD ? "grid" : undefined }}
       >
         <Grid md item container direction="column" alignItems="center">
           <Grid item>
